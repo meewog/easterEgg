@@ -2,7 +2,7 @@ $(
 	function()
 	{
 		start()
-		positionBalloons
+		// positionBalloons()
 	}
 )
 
@@ -64,7 +64,19 @@ function balloonsUpAndAway()
 
 function positionBalloons()
 {
-	var		width=$('.body').width()
+	var	width	=$('body').width(),
+		quart	=width*0.4,
+		ten		=width*0.1
 
-	console.log(width)
+	$('.artist').attr
+	(
+		'width',
+		quart+'px'
+	)
+
+	$('#balloon1').css
+	(
+		'left',
+		ten+'px'
+	)
 }

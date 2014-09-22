@@ -42,7 +42,7 @@ h3
 
 .artist
 {
-	width: 300px;
+	width: 40%;
 	position: absolute;
 	z-index: 100;
 	top: 110%;
@@ -51,10 +51,10 @@ h3
 
 .artist#balloon1
 {
-	left: 5%;
+	left: 10%;
 }
 
 .artist#balloon2
 {
-	left: 40%;
+	left: 50%;
 }
