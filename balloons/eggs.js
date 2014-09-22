@@ -1,17 +1,29 @@
 $(
 	function()
 	{
-		start();
+		start()
+		positionBalloons
 	}
 )
 
 
 function start()
 {
-	console.log('start')
-
 	addBalloons()
+}
 
+function addBalloons()
+{
+	$('body').append
+	(
+		'<img id="balloon1" class="artist" src="img/balloon1.png" /><img id="balloon2" class="artist" src="img/balloon2.png" />'
+	)
+
+	animateBalloons()
+}
+
+function animateBalloons()
+{
 	$('#balloon1').animate
 	(
 		{
@@ -29,14 +41,30 @@ function start()
 	setTimeout(function() 
 	{
 		console.log('trigger')
-	}, 5000);
-
+		balloonsUpAndAway()
+	}, 7000);
 }
 
-function addBalloons()
+function balloonsUpAndAway()
 {
-	$('body').append
+	$('#balloon1').animate
 	(
-		'<img id="balloon1" class="artist" src="img/balloon1.png" /><img id="balloon2" class="artist" src="img/balloon2.png" />'
+		{
+			top: '-500px'
+		},3400
 	)
+
+	$('#balloon2').animate
+	(
+		{
+			top: '-500px'
+		},2400
+	)
+}
+
+function positionBalloons()
+{
+	var		width=$('.body').width()
+
+	console.log(width)
 }
