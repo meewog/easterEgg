@@ -15,7 +15,7 @@ function addBalloons()
 {
 	$('body').append
 	(
-		'<img id="balloon1" class="artist" src="img/balloon1.png" /><img id="balloon2" class="artist" src="img/balloon2.png" />'
+		'<img id="balloon1" class="artist" src="img/balloon1.png" /><img id="balloon2" class="artist" src="img/balloon2.png" /><img id="balloon3" class="artist" src="img/balloon3.png" />'
 	)
 
 	animateBalloons()
@@ -33,7 +33,14 @@ function animateBalloons()
 	$('#balloon2').animate
 	(
 		{
-			top: '120px'
+			top: '150px'
+		},3400
+	)
+
+	$('#balloon3').animate
+	(
+		{
+			top: '350px'
 		},3400
 	)
 
@@ -59,5 +66,12 @@ function balloonsUpAndAway()
 		{
 			top: '-'+balloonHeight+'px'
 		},2400
+	)
+
+	$('#balloon3').animate
+	(
+		{
+			top: '-'+balloonHeight+'px'
+		},3000
 	)
 }

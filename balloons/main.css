@@ -17,7 +17,6 @@ body
 	margin: auto;
 	display: block;
 	position: relative;
-	/*background: white url(img/sky.png) center;*/
 }
 
 h3 
@@ -42,7 +41,7 @@ h3
 
 .artist
 {
-	max-width: 40%;
+	max-width: 60%;
 	position: absolute;
 	z-index: 100;
 	top: 110%;
@@ -52,10 +51,18 @@ h3
 
 .artist#balloon1
 {
+	z-index: 103;
 	left: 5%;
 }
 
 .artist#balloon2
 {
-	left: 55%;
+	z-index: 102;
+	left: 35%;
+}
+
+.artist#balloon3
+{
+	z-index: 101;
+	left: 10%;
 }
