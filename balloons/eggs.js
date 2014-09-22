@@ -46,17 +46,18 @@ function animateBalloons()
 
 function balloonsUpAndAway()
 {
+	var balloonHeight=$('#balloon1').height()*1.4;
 	$('#balloon1').animate
 	(
 		{
-			top: '-100%'
+			top: '-'+balloonHeight+'px'
 		},3400
 	)
 
 	$('#balloon2').animate
 	(
 		{
-			top: '-100%'
+			top: '-'+balloonHeight+'px'
 		},2400
 	)
 }
