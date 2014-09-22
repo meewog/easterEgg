@@ -49,14 +49,14 @@ function balloonsUpAndAway()
 	$('#balloon1').animate
 	(
 		{
-			top: '-500px'
+			top: '-100%'
 		},3400
 	)
 
 	$('#balloon2').animate
 	(
 		{
-			top: '-500px'
+			top: '-100%'
 		},2400
 	)
 }
