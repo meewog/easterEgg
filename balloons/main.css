@@ -42,10 +42,11 @@ h3
 
 .artist
 {
-	width: 40%;
+	max-width: 40%;
 	position: absolute;
 	z-index: 100;
 	top: 110%;
+	max-height: 70%;
 	/*opacity: 0;*/
 }
 
