@@ -1,0 +1,60 @@
+body
+{
+	width: 100%;
+	/*background: black;*/
+}
+
+.clear 
+{
+	clear: both;
+}
+
+.container 
+{
+	content: ' ';
+	width: 100%;
+	height: 100vh;
+	margin: auto;
+	display: block;
+	position: relative;
+	background: white url(img/sky.png) center;
+}
+
+h3 
+{
+	font-family: arial;
+	margin-top: 250px;
+	font-size: 60pt;
+	color: #c9bcb8;
+	position: absolute;
+	z-index: -100;
+}
+
+.easterEggs
+{
+	position: absolute;
+	padding: 5px 20px;
+	text-align: center;
+	z-index: 100;
+	display: none;
+	top: -100px;
+}
+
+.artist
+{
+	width: 300px;
+	position: absolute;
+	z-index: 100;
+	top: 110%;
+	/*opacity: 0;*/
+}
+
+.artist#balloon1
+{
+	left: 5%;
+}
+
+.artist#balloon2
+{
+	left: 40%;
+}

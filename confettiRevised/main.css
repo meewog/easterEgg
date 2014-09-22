@@ -1,0 +1,53 @@
+body
+{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	/*background: black;*/
+}
+
+.clear 
+{
+	clear: both;
+}
+
+.container 
+{
+	content: ' ';
+	width: 960px;
+	/*height: 100vh;*/
+	margin: auto;
+	display: block;
+	position: relative;
+	/*background: white url(img/mat.png) center no-repeat;*/
+	/*background-size: 70%;*/
+}
+
+h3 
+{
+	font-family: arial;
+	margin-top: 250px;
+	font-size: 60pt;
+	color: #c9bcb8;
+	position: absolute;
+	z-index: -100;
+}
+
+.easterEggs
+{
+	position: absolute;
+	padding: 5px 20px;
+	text-align: center;
+	z-index: 100;
+	display: none;
+	top: -100px;
+}
+
+.artist
+{
+	width: 250px;
+	position: absolute;
+	z-index: 100;
+	top: -200px;
+	/*opacity: 0;*/
+}
